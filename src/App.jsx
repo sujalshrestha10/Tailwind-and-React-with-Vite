@@ -1,6 +1,7 @@
 import "./App.css";
 import "./index.css";
 import Dokan from "./components/Dokan.jsx";
+import MyFunction from "./components/Happy.jsx";
 
 function App() {
   let userName = {
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Dokan name="k xa k xa k xa k xa" />
+      <MyFunction className="bandar"  />
     </>
   );
 }
